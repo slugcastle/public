@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           NEO remove TVW npc animations
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    removes idle animations from tvw plot npcs
+@author         slugcastle
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.neopets.com/tvw/") {
+  .plothub-char {
+    animation: none !important;
+  }
+}
